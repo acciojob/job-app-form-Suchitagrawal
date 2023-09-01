@@ -9,9 +9,10 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form method="post">
-		<input id="name" text="input" placeholder="Name" required>
-		
-		<br><input id="email" text="email" placeholder="Email">
+		<label for="name">Name</label>
+		<input id="name" text="input" placeholder="Name" name="name" required>
+		<br><label for="email">Email</label>
+		<br><input id="email" text="email" placeholder="Email" required>
 
 		<br><label for="male">Gender</label>
 		<input type="radio" id="male" name="gender" required>male
@@ -24,13 +25,13 @@
 		<option>Asus</option>
 		<option>HP</option>
 		</select>
-		
+		<br><label for="age">Age</label>
 		<br><input id="age" type="number" placeholder="Age" required>
-
+         <br><label for="dob">DOB</label>
 		<br><input id="dob" type="date" placeholder="DOB" required>
-
+        <br><label for="password">Password</label>
 		<br><input id="password" type="password" placeholder="Password" required>
-
+       <br><label for="portfolio">Portfolio</label>
 		<br><input id="portfolio" type="url" placeholder="portfolio">
 
 		<br><button type="submit">Submit</button>
